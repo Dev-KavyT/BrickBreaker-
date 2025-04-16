@@ -191,6 +191,24 @@ This could involve transitioning to more advanced graphics libraries that suppor
 we plan to add more sound effects and a more immersive background soundtrack to enhance the gaming experience.
 - Mobile Compatibility: In the future, we plan to explore the possibility of adapting the game for mobile devices, making it accessible on Android and iOS platforms.
 
+## File Overview
+- Repository File Overview
+Here's a breakdown of the files in the leninLD/BrickBreaker repository:
+
+main.cpp
+Description:
+The primary source code file containing the game's logic.
+
+- Key Components:
+**Game Initialization:** Sets up the game window, graphics, and initial game state.
+**Main Game Loop:** Handles user input, updates game objects, and renders the game each frame.
+**Collision Detection:** Manages interactions between the ball, paddle, bricks, and power-ups.
+**Power-Up Management:** Includes functions like updatePowerUp() and updatePowerUpTimer() to handle power-up behavior.
+**High Score Handling:** Reads and writes the high score to a file (highscore.txt).
+- README.md
+**Description:**
+Provides an overview of the project, including features and gameplay mechanics.
+
 ## 🧑‍💻 Devlopers
 
 - 👤 [Kavya Halani]
